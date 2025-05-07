@@ -59,11 +59,10 @@ if os.path.exists(commit_file):
         deploy_script_path = os.path.join(script_dir, "deploy.sh")
 
         subprocess.run(["bash", deploy_script_path], check=True)
-        
+
         print("Git pull completed successfully!")
         # Save the last commit
-        with open(commit_file, 'w') as file:
-            file.write(recent_commit)
+        update_last_commit(recent_commit)
 else:
     # If the file doesn't exist, create it and write the current commit
     script_dir = os.path.dirname(os.path.abspath(__file__))
