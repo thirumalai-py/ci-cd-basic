@@ -1,0 +1,3 @@
+pygithub
+load_dotenv
+gitpython
