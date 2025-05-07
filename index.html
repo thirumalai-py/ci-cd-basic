@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirumalai Raja | Portfolio Update</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project-card {
+            background: #fff;
+            padding: 15px;
+            margin: 10px;
+            width: 250px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        @media (max-width: 600px) {
+            .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thirumalai Raja</h1>
+        <p>Software Developer | Open Source Enthusiast</p>
+        <a href="https://github.com/thirumalai-py" class="btn" target="_blank">GitHub Profile</a>
+    </header>
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 id="projects">Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Sentora Auto Clean Up</h3>
+                <p>Option to automate the log and session file clean up on the Sentora Panel an open source alternative for Cpanel</p>
+                <a href="https://github.com/thirumalai-py/sentora-auto-cleanup" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Password Validator</h3>
+                <p>A Python library for validating passwords.</p>
+                <a href="https://github.com/thirumalai-py/password-validator" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>CPU Health</h3>
+                <p>Monitor CPU performance and health.</p>
+                <a href="https://github.com/thirumalai-py/cpu-health" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Repo Backup</h3>
+                <p>Automate repository backups.</p>
+                <a href="https://github.com/thirumalai-py/repo-backup" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>HTML CI/CD Pipeline - Bash & Python</h3>
+                <p>Option to automate the deployment via bash script and python script</p>
+                <a href="https://github.com/thirumalai-py/ci-cd-html" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Thirumalai Raja. All rights reserved.</p>
+    </footer>
+</body>
+</html>
