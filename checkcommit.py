@@ -11,7 +11,6 @@ GIT_REPO= os.getenv("GIT_REPO")
 GIT_TOKEN = os.getenv("GIT_TOKEN")
 BRANCH = os.getenv("BRANCH")
 
-
 commit_file = 'latest_commit.txt'
 
 # Auth the Repo
