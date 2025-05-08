@@ -1,16 +1,17 @@
 #!/bin/bash
 
+if [ -f .env ]; then
+    source .env
+else
+    echo "No .env file found"
+fi
+
 current_date=$(date '+%Y-%m-%d %H:%M:%S')
 commit_file="latest_commit.txt"
 folder_path=$FOLDER_PATH
 
 log_file="$folder_path/deploy_log.log"
 
-if [ -f .env ]; then
-    source .env
-else
-    echo "No .env file found"
-fi
 
 echo "Current Branch: $BRANCH"
 

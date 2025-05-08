@@ -124,7 +124,7 @@ Add the following to run the script every 2 minutes using virtualenv:
 
 **After Making Commit**
 
-![alt text](output/output_log.png)
+![alt text](output/output_aftergit.png)
 
 
 
