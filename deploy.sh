@@ -1,8 +1,9 @@
 #!/bin/bash
 
 current_date=$(date '+%Y-%m-%d %H:%M:%S')
-folder_path=$(pwd)
 commit_file="latest_commit.txt"
+folder_path=$FOLDER_PATH
+
 log_file="$folder_path/deploy_log.log"
 
 if [ -f .env ]; then

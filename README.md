@@ -110,14 +110,16 @@ Add the following to run the script every 2 minutes using virtualenv:
 4. You should see the changes live.
 
 
-## Sample Log Output
-
-**Before Making Commit**
-![alt text](output/output_log.png)
-
-**Before Making Commit**
-![alt text](output/output_log.png)
+## Output Screenshots
 
 **Folder Structure**
 ![alt text](output/output_folder_log)
+
+**Before Making Commit**
+![alt text](output/output_log.png)
+
+**After Making Commit**
+![alt text](output/output_log.png)
+
+
 
