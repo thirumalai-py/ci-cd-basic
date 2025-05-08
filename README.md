@@ -113,7 +113,7 @@ Add the following to run the script every 2 minutes using virtualenv:
 ## Output Screenshots
 
 **Folder Structure**
-![alt text](output/output_folder_log)
+![alt text](output/output_folder_log.png)
 
 **Before Making Commit**
 ![alt text](output/output_log.png)
