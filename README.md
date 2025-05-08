@@ -61,6 +61,8 @@ Store your GitHub credentials and repository details in a `.env` file in the pro
 ```env
 GIT_TOKEN=your_personal_access_token
 BRANCH=main
+GIT_REPO=thirumalai-py/ci-cd-basic
+FOLDER_PATH=/var/www/html
 ```
 
 ### 5. Bash Deployment Script (deploy.sh)
