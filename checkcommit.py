@@ -25,7 +25,7 @@ print(repo.full_name)
 print(repo.description)
 
 # Current Repo Path
-repo_path = os.getcwd()
+repo_path = os.path.dirname(os.path.abspath(__file__))
 repo_src = Repo(repo_path)
 
 # Get commits
