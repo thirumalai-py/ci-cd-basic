@@ -7,8 +7,11 @@ from git import Repo
 # Load environment variables from .env file
 load_dotenv()
 
+GIT_REPO= os.getenv("GIT_REPO")
 GIT_TOKEN = os.getenv("GIT_TOKEN")
 BRANCH = os.getenv("BRANCH")
+
+
 commit_file = 'latest_commit.txt'
 
 # Auth the Repo
@@ -19,7 +22,7 @@ user = github_access.get_user()
 print("Authenticated as:", user.login)
 
 # Get Repo Access
-repo = github_access.get_repo("thirumalai-py/ci-cd-html")
+repo = github_access.get_repo(GIT_REPO)
 # Get repository details
 print(repo.full_name)
 print(repo.description)
